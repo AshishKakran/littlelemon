@@ -1,0 +1,47 @@
+@layer reset {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: unset;
+    }
+
+    button,
+    input,
+    textarea,
+    select {
+        font: inherit;
+    }
+
+    img,
+    picture,
+    svg,
+    canvas {
+        display: block;
+        max-inline-size: 100%;
+        height: auto;
+        aspect-ratio: auto;
+        object-fit: contain;
+        object-position: center;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    @media (prefers-reduced-motion: reduce){
+        *,
+        *::before,
+        *::after {
+            animation-duration: 0s !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0s !important;
+            scroll-behavior: auto !important;
+        }
+    }
+}

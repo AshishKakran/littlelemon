@@ -1,0 +1,29 @@
+@layer theme {
+    :root {
+        --primary-color-1: #495E57;
+        --primary-color-2: #F4CE14;
+        --secondary-color-1: #FBDABB;
+        --secondary-color-2: #EE9972;
+        --highlight-color-1: #333333;
+        --highlight-color-2: #EDEFEE;
+        --brand-color: #F4CE14;
+        --font-family: 'Karla', sans-serif;
+        --font-family-heading: 'Markazi Text', serif;
+        --font-size-base: 16px;
+        --font-size-heading: 2rem;
+        --font-size-small: 0.875rem;
+        --font-size-large: 1.25rem;
+        --line-height-base: 1.5;
+        --line-height-heading: 1.2;
+        --border-radius: 0.25rem;
+        --box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        --transition-duration: 0.3s;
+        --transition-timing-function: ease-in-out;
+        --transition-property: background-color, color, box-shadow, transform;
+        --transition: var(--transition-property) var(--transition-duration) var(--transition-timing-function);
+        
+
+        accent-color: var(--brand-color);
+        color-scheme: light dark;
+    }
+}

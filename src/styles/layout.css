@@ -1,0 +1,17 @@
+@layer layout {
+
+    #homepage {
+        display: grid;
+        grid-template-areas: 
+            "header"
+            "hero"
+            "specials"
+            "testimonials"
+            "about"
+            "footer";
+        grid-template-rows: auto 1fr auto auto auto auto;
+        grid-template-columns: 100%;
+        gap: 1rem;
+    }
+
+}
